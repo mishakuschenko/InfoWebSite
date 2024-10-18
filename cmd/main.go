@@ -6,7 +6,7 @@ import (
 )
 
 // Создается функция-обработчик "home", которая записывает байтовый слайс, содержащий
-// текст "Привет из Snippetbox" как тело ответа.
+// текст "home page" как тело ответа.
 
 func home(page http.ResponseWriter, request *http.Request) {
     page.Write([]byte("home page"))
